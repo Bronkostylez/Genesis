@@ -22,6 +22,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
+    <Compile Include="commands.py" />
+    <Compile Include="config.py" />
+    <Compile Include="gui.py" />
+    <Compile Include="instructions.py" />
+    <Compile Include="interfaces.py" />
+    <Compile Include="ollama_client.py" />
+    <Compile Include="runtime.py" />
+    <Compile Include="schema.py" />
+    <Compile Include="state.py" />
+    <Compile Include="world.py" />
+    <Content Include="templates\world_main.py.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
